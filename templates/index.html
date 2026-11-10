@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#174a45">
+  <title>Trivia | Desafío de conocimientos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <!-- Encabezado con la identidad del juego. -->
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Trivia, inicio">
+      <span class="brand-mark" aria-hidden="true">T</span>
+      <span>TRIVIA<span class="brand-dot">.</span></span>
+    </a>
+    <span class="topbar-note">Desafío de conocimientos</span>
+  </header>
+
+  <!-- Área principal: se muestra una etapa a la vez (nombre, categoría, juego o resultado). -->
+  <main class="layout">
+    <section class="game-column" aria-live="polite">
+      <div class="game-heading">
+        <p class="eyebrow">JUEGO DE PREGUNTAS</p>
+        <h1>¿Cuánto sabés?</h1>
+        <p class="intro-copy">Diez preguntas. Cuatro opciones. Cada acierto vale 100 puntos.</p>
+      </div>
+
+      <!-- Primera etapa: pide el nombre para comenzar. -->
+      <section id="welcome-panel" class="panel welcome-panel">
+        <div class="panel-kicker"><span class="status-dot"></span> PARTIDA NUEVA</div>
+        <h2>Prepará tu mejor respuesta.</h2>
+        <form id="start-form">
+          <label for="player-name">Tu nombre</label>
+          <div class="start-row">
+            <input id="player-name" name="nombre" maxlength="25" autocomplete="name" placeholder="Ej. Alex" required>
+            <button class="button button-primary" type="submit">Empezar <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+        <p id="start-error" class="error-message" role="alert"></p>
+        <div class="game-facts">
+          <span><strong>10</strong> preguntas</span>
+          <span><strong>100</strong> puntos por acierto</span>
+        </div>
+      </section>
+
+      <!-- Segunda etapa: JavaScript agrega aquí las categorías disponibles. -->
+      <section id="category-panel" class="panel category-panel" hidden>
+        <div class="panel-kicker"><span class="status-dot"></span> <span id="category-player"></span></div>
+        <h2>¿Qué querés poner a prueba?</h2>
+        <p class="category-intro">Elegí una categoría para esta partida.</p>
+        <div id="category-grid" class="category-grid"></div>
+        <p id="category-error" class="error-message" role="alert"></p>
+        <button id="back-to-name" class="button button-secondary back-button" type="button">← Cambiar nombre</button>
+      </section>
+
+      <!-- Etapa de preguntas: el servidor verifica cada respuesta. -->
+      <section id="quiz-panel" class="panel quiz-panel" hidden>
+        <div class="quiz-meta">
+          <div class="quiz-context">
+            <span id="active-category" class="category-tag"></span>
+            <span id="question-counter" class="panel-kicker">PREGUNTA 1 DE 10</span>
+          </div>
+          <span class="score-pill"><span aria-hidden="true">✦</span> <span id="live-score">0</span> pts</span>
+        </div>
+        <div class="progress-track" aria-label="Progreso del juego">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <h2 id="question-text" class="question-text"></h2>
+        <div id="answer-options" class="answer-options"></div>
+        <div id="answer-feedback" class="answer-feedback" role="status" hidden></div>
+        <button id="next-button" class="button button-primary next-button" type="button" hidden>Continuar <span aria-hidden="true">→</span></button>
+      </section>
+
+      <!-- Etapa final: aparece al completar las diez preguntas. -->
+      <section id="result-panel" class="panel result-panel" hidden>
+        <p class="panel-kicker">PARTIDA COMPLETADA</p>
+        <div class="result-score"><span id="final-score">0</span><span class="result-total">/1000</span></div>
+        <h2 id="result-title">¡Buen trabajo!</h2>
+        <p id="result-copy"></p>
+        <div class="result-actions">
+          <button id="play-again-button" class="button button-primary" type="button">Jugar otra vez <span aria-hidden="true">↻</span></button>
+          <button id="ranking-focus-button" class="button button-secondary" type="button">Mostrar ranking ↗</button>
+        </div>
+      </section>
+
+      <p class="game-error" id="game-error" role="alert"></p>
+    </section>
+
+  </main>
+  <!-- Ventana del ranking, que se abre con el botón de la pantalla final. -->
+  <dialog id="leaderboard-dialog" class="leaderboard-dialog" aria-labelledby="leaderboard-title">
+    <div class="leaderboard-header">
+      <div>
+        <p id="leaderboard-subtitle" class="panel-kicker">TOP 10</p>
+        <h2 id="leaderboard-title">Resultados de otros jugadores</h2>
+      </div>
+      <button id="close-leaderboard" class="dialog-close" type="button" aria-label="Cerrar ranking">×</button>
+    </div>
+    <p id="leaderboard-status" class="leaderboard-status" role="status">Cargando resultados...</p>
+    <div class="leaderboard-table-wrap">
+      <table id="leaderboard-table" class="leaderboard-table" hidden>
+        <caption class="visually-hidden">Hasta diez mejores puntuaciones de otros jugadores</caption>
+        <thead>
+          <tr><th scope="col">Puesto</th><th scope="col">Jugador</th><th scope="col">Categoría</th><th scope="col">Puntuación</th></tr>
+        </thead>
+        <tbody id="leaderboard-rows"></tbody>
+      </table>
+    </div>
+  </dialog>
+  <footer class="site-footer"><span>APRENDER TAMBIÉN PUEDE SER UN JUEGO</span><span>PROYECTO ESCOLAR · TRIVIA</span></footer>
+</body>
+</html>

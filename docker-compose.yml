@@ -1,0 +1,11 @@
+services:
+  mongodb:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - trivia_mongodb_data:/data/db
+
+volumes:
+  trivia_mongodb_data:
