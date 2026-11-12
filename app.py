@@ -1,7 +1,9 @@
 # Este archivo contiene las reglas del juego y las rutas que conectan la página
 # con la base de datos. El navegador muestra las preguntas; el servidor guarda
 # las respuestas correctas y calcula los resultados.
+import html
 import os
+import secrets
 from datetime import datetime, timezone
 
 from bson import ObjectId
@@ -19,6 +21,14 @@ CATEGORIAS = [
     {"id": "geografia", "nombre": "Geografía", "icono": "🌎", "descripcion": "Países, lugares y mapas"},
     {"id": "matematica", "nombre": "Matemática", "icono": "📐", "descripcion": "Números, formas y lógica"},
 ]
+
+
+def sanitizar_nombre(valor):
+    if not isinstance(valor, str):
+        return ""
+    texto = "".join(caracter for caracter in valor if caracter.isprintable()).strip()
+    return html.escape(texto[:25], quote=True)
+
 
 # Banco de preguntas de ejemplo. Cada fila tiene el enunciado, las cuatro
 # opciones y la letra de la opción correcta.
@@ -286,7 +296,7 @@ class Puntuacion:
 
     def para_mostrar(self, puesto=None):
         resultado = {
-            "nombre": self.nombre,
+            "nombre": html.unescape(self.nombre),
             "puntuacion": self.puntuacion,
             "total": self.total,
         }
@@ -392,7 +402,12 @@ class RepositorioQuiz:
 def create_app(repository=None):
     # Prepara Flask y conecta la aplicación con MongoDB.
     app = Flask(__name__)
-    app.secret_key = os.getenv("FLASK_SECRET_KEY", "clave-local-para-desarrollo")
+    app.secret_key = os.getenv("FLASK_SECRET_KEY") or secrets.token_hex(32)
+    if not os.getenv("FLASK_SECRET_KEY"):
+        app.logger.warning(
+            "FLASK_SECRET_KEY no está configurada; las sesiones se invalidarán "
+            "cuando se reinicie la aplicación."
+        )
 
     if repository is None:
         cliente = MongoClient(
@@ -403,6 +418,15 @@ def create_app(repository=None):
         repository = RepositorioQuiz(base_datos)
 
     app.config["REPOSITORIO_QUIZ"] = repository
+
+    @app.errorhandler(500)
+    def error_interno(error):
+        excepcion = error.original_exception or error
+        app.logger.error(
+            "Error interno al procesar la solicitud.",
+            exc_info=(type(excepcion), excepcion, excepcion.__traceback__),
+        )
+        return jsonify({"error": "Ocurrió un error interno. Intentá nuevamente más tarde."}), 500
 
     @app.get("/")
     def inicio():
@@ -418,12 +442,17 @@ def create_app(repository=None):
     def iniciar_quiz():
         # Comprueba el nombre y la categoría, elige preguntas y recuerda la
         # partida en la sesión del navegador.
-        datos = request.get_json(silent=True) or {}
-        nombre = str(datos.get("nombre", "")).strip()[:25]
+        datos = request.get_json(silent=True)
+        if not isinstance(datos, dict):
+            return jsonify({"error": "Los datos enviados no son válidos."}), 400
+
+        nombre = sanitizar_nombre(datos.get("nombre"))
         categoria = datos.get("categoria")
         if not nombre:
             return jsonify({"error": "Ingresá tu nombre para empezar."}), 400
-        if categoria not in {item["id"] for item in CATEGORIAS}:
+        if not isinstance(categoria, str) or categoria not in {
+            item["id"] for item in CATEGORIAS
+        }:
             return jsonify({"error": "Elegí una categoría disponible."}), 400
 
         try:
@@ -431,6 +460,7 @@ def create_app(repository=None):
         except ValueError as error:
             return jsonify({"error": str(error)}), 503
         except PyMongoError:
+            app.logger.exception("No se pudieron obtener preguntas de MongoDB.")
             return jsonify({"error": "No se pudo conectar con MongoDB."}), 503
 
         quiz = Quiz(preguntas)
@@ -442,7 +472,7 @@ def create_app(repository=None):
 
         return jsonify(
             {
-                "jugador": nombre,
+                "jugador": html.unescape(nombre),
                 "categoria": categoria,
                 "categoria_nombre": next(
                     item["nombre"] for item in CATEGORIAS if item["id"] == categoria
@@ -460,7 +490,9 @@ def create_app(repository=None):
         if "pregunta_ids" not in session or "jugador" not in session:
             return jsonify({"error": "Iniciá una partida antes de responder."}), 400
 
-        datos = request.get_json(silent=True) or {}
+        datos = request.get_json(silent=True)
+        if not isinstance(datos, dict):
+            return jsonify({"error": "Los datos enviados no son válidos."}), 400
         letra = datos.get("respuesta", "")
         if not isinstance(letra, str):
             return jsonify({"error": "La respuesta debe ser una opción válida."}), 400
@@ -472,6 +504,7 @@ def create_app(repository=None):
         except ValueError as error:
             return jsonify({"error": str(error)}), 400
         except PyMongoError:
+            app.logger.exception("No se pudieron recuperar preguntas de MongoDB.")
             return jsonify({"error": "No se pudo conectar con MongoDB."}), 503
 
         session["respuestas_usuario"] = quiz.respuestas_usuario
@@ -492,9 +525,10 @@ def create_app(repository=None):
                 )
                 respuesta["top10"] = repository.obtener_top10(session["categoria"])
             except PyMongoError:
+                app.logger.exception("No se pudo guardar o consultar el resultado en MongoDB.")
                 return jsonify({"error": "No se pudo guardar el resultado en MongoDB."}), 503
             session["partida_finalizada"] = True
-            respuesta["jugador"] = session["jugador"]
+            respuesta["jugador"] = html.unescape(session["jugador"])
         else:
             respuesta["siguiente_pregunta"] = quiz.pregunta_actual.para_mostrar()
 
@@ -503,9 +537,9 @@ def create_app(repository=None):
     @app.get("/api/ranking")
     def ranking():
         # Devuelve los mejores puntajes cuando el jugador pide ver el ranking.
-        nombre = request.args.get("nombre", "").strip()[:25]
+        nombre = sanitizar_nombre(request.args.get("nombre", ""))
         categoria = request.args.get("categoria")
-        excluir_nombre = request.args.get("excluir", "").strip()[:25]
+        excluir_nombre = sanitizar_nombre(request.args.get("excluir", ""))
         if categoria and categoria not in {item["id"] for item in CATEGORIAS}:
             return jsonify({"error": "La categoría no existe."}), 400
         try:
@@ -516,6 +550,7 @@ def create_app(repository=None):
                 else None
             )
         except PyMongoError:
+            app.logger.exception("No se pudo consultar el ranking en MongoDB.")
             return jsonify({"error": "No se pudo conectar con MongoDB."}), 503
         return jsonify({"top10": top10, "mejor_puntuacion": mejor})
 
