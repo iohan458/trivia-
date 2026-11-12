@@ -32,8 +32,6 @@ La escuela pone en funcionamiento la **Trivia** como herramienta de repaso para 
 
 ## 2. Diagrama de topología
 
-![Topología de red del Grupo 8](docs/img/topologia.png)
-
 ```mermaid
 graph TD
     NET(("Internet")) --- R["Router R-EXPO-G8<br/>Gi0/1: 203.0.113.2/30 (NAT/PAT)"]
@@ -46,7 +44,7 @@ graph TD
     AP -.-|"Wi-Fi"| WIFI["Laptop/Celular Invitado<br/>DHCP"]
 ```
 
-> `TODO`: agregar acá la captura del diagrama hecho en Packet Tracer (`docs/img/topologia.png`).
+![Topología de red del Grupo 8](docs/img/topologia.png)
 
 **Equipos mínimos pedidos:** 1 router, 1 switch, 1 punto de acceso, servidor de aplicación, servidor de BD y 4 PCs de usuarios ✔.
 
