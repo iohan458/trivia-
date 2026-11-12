@@ -4,7 +4,6 @@
 > Proyecto Integrador Final – ExpoTécnica 2026 · E.P.E.T. Nº1 UNESCO
 > Este documento identifica los activos, las amenazas y las medidas de seguridad de la aplicación de Trivia, y se relaciona con `REDES.md` (la tabla de integración usa los mismos IDs de amenaza).
 >
-> Los textos marcados con `TODO` o con estado **Pendiente** son cosas que tienen que verificar o implementar ustedes antes de la entrega.
 
 ---
 
@@ -87,7 +86,7 @@
 | Actualizaciones del sistema operativo y de las dependencias (`pip list --outdated`) | T12 | **Pendiente** |
 | `.env` en `.gitignore`; ninguna clave en el código ni en `REDES.md` | T14 | **TODO verificar** |
 
-### 3.4 Mejoras recomendadas (si les da el tiempo)
+### 3.4 Mejoras recomendadas
 
 - **HTTPS con nginx** (certificado autofirmado) y abrir el puerto 443 en la ACL. Mitiga T11.
 - **Rate limiting** en nginx (`limit_req_zone`) o con la librería Flask-Limiter en `/api/quiz/iniciar` y `/api/quiz/responder`. Mitiga T10.
@@ -106,7 +105,7 @@
 
 ---
 
-## 5. Respuesta ante incidentes (resumen)
+## 5. Respuesta ante incidentes
 
 1. **Detectar:** contadores de `show access-lists`, logs del router, comportamiento raro en el ranking.
 2. **Contener:** apagar la boca del switch del equipo sospechoso (`shutdown`) o sacar al invitado de la VLAN 30.
