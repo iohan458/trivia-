@@ -1,0 +1,2882 @@
+[
+  {
+    "categoria": "ciencia",
+    "orden": 1,
+    "texto": "¿Cuál es el símbolo químico del hierro?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Fe"
+      },
+      {
+        "letra": "B",
+        "texto": "H"
+      },
+      {
+        "letra": "C",
+        "texto": "F"
+      },
+      {
+        "letra": "D",
+        "texto": "He"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 2,
+    "texto": "¿Qué planeta es conocido como el planeta rojo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Venus"
+      },
+      {
+        "letra": "B",
+        "texto": "Marte"
+      },
+      {
+        "letra": "C",
+        "texto": "Júpiter"
+      },
+      {
+        "letra": "D",
+        "texto": "Mercurio"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 3,
+    "texto": "¿Qué gas absorben principalmente las plantas?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Oxígeno"
+      },
+      {
+        "letra": "B",
+        "texto": "Nitrógeno"
+      },
+      {
+        "letra": "C",
+        "texto": "Hidrógeno"
+      },
+      {
+        "letra": "D",
+        "texto": "Dióxido de carbono"
+      }
+    ],
+    "respuesta_correcta": "D"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 4,
+    "texto": "¿Cuál es la fórmula química del agua?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "CO₂"
+      },
+      {
+        "letra": "B",
+        "texto": "NaCl"
+      },
+      {
+        "letra": "C",
+        "texto": "O₂"
+      },
+      {
+        "letra": "D",
+        "texto": "H₂O"
+      }
+    ],
+    "respuesta_correcta": "D"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 5,
+    "texto": "¿En qué unidad se mide la fuerza?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Joule"
+      },
+      {
+        "letra": "B",
+        "texto": "Newton"
+      },
+      {
+        "letra": "C",
+        "texto": "Watt"
+      },
+      {
+        "letra": "D",
+        "texto": "Pascal"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 6,
+    "texto": "¿Cuál es la estrella más cercana a la Tierra?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Sirio"
+      },
+      {
+        "letra": "B",
+        "texto": "Próxima Centauri"
+      },
+      {
+        "letra": "C",
+        "texto": "El Sol"
+      },
+      {
+        "letra": "D",
+        "texto": "Vega"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 7,
+    "texto": "¿Qué molécula contiene gran parte de la información hereditaria?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "ADN"
+      },
+      {
+        "letra": "B",
+        "texto": "Glucosa"
+      },
+      {
+        "letra": "C",
+        "texto": "Agua"
+      },
+      {
+        "letra": "D",
+        "texto": "Oxígeno"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 8,
+    "texto": "¿A qué temperatura hierve el agua al nivel del mar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "50 °C"
+      },
+      {
+        "letra": "B",
+        "texto": "80 °C"
+      },
+      {
+        "letra": "C",
+        "texto": "100 °C"
+      },
+      {
+        "letra": "D",
+        "texto": "120 °C"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 9,
+    "texto": "¿Qué órgano usamos principalmente para respirar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Estómago"
+      },
+      {
+        "letra": "B",
+        "texto": "Pulmones"
+      },
+      {
+        "letra": "C",
+        "texto": "Riñones"
+      },
+      {
+        "letra": "D",
+        "texto": "Páncreas"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 10,
+    "texto": "¿Cómo se llama el centro de un átomo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Molécula"
+      },
+      {
+        "letra": "B",
+        "texto": "Corteza"
+      },
+      {
+        "letra": "C",
+        "texto": "Núcleo"
+      },
+      {
+        "letra": "D",
+        "texto": "Célula"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 11,
+    "texto": "¿Qué proceso permite a las plantas transformar luz en energía química?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Fermentación"
+      },
+      {
+        "letra": "B",
+        "texto": "Fotosíntesis"
+      },
+      {
+        "letra": "C",
+        "texto": "Respiración celular"
+      },
+      {
+        "letra": "D",
+        "texto": "Evaporación"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 12,
+    "texto": "¿Qué partícula subatómica tiene carga eléctrica negativa?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Protón"
+      },
+      {
+        "letra": "B",
+        "texto": "Neutrón"
+      },
+      {
+        "letra": "C",
+        "texto": "Electrón"
+      },
+      {
+        "letra": "D",
+        "texto": "Núcleo"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 13,
+    "texto": "¿Qué elemento químico es líquido a temperatura ambiente?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Mercurio"
+      },
+      {
+        "letra": "B",
+        "texto": "Aluminio"
+      },
+      {
+        "letra": "C",
+        "texto": "Cobre"
+      },
+      {
+        "letra": "D",
+        "texto": "Silicio"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 14,
+    "texto": "¿Qué escala se usa para medir la acidez o alcalinidad de una solución?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Richter"
+      },
+      {
+        "letra": "B",
+        "texto": "Beaufort"
+      },
+      {
+        "letra": "C",
+        "texto": "pH"
+      },
+      {
+        "letra": "D",
+        "texto": "Kelvin"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 15,
+    "texto": "¿Cuál es la unidad del Sistema Internacional para medir energía?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Newton"
+      },
+      {
+        "letra": "B",
+        "texto": "Joule"
+      },
+      {
+        "letra": "C",
+        "texto": "Pascal"
+      },
+      {
+        "letra": "D",
+        "texto": "Amperio"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 16,
+    "texto": "¿Qué estructura celular contiene la mayor parte del ADN en una célula animal?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Membrana"
+      },
+      {
+        "letra": "B",
+        "texto": "Núcleo"
+      },
+      {
+        "letra": "C",
+        "texto": "Ribosoma"
+      },
+      {
+        "letra": "D",
+        "texto": "Citoplasma"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 17,
+    "texto": "¿Cómo se llama el cambio de estado de gas a líquido?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Fusión"
+      },
+      {
+        "letra": "B",
+        "texto": "Sublimación"
+      },
+      {
+        "letra": "C",
+        "texto": "Condensación"
+      },
+      {
+        "letra": "D",
+        "texto": "Solidificación"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 18,
+    "texto": "¿Qué tipo de enlace se forma al compartir electrones entre átomos?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Iónico"
+      },
+      {
+        "letra": "B",
+        "texto": "Covalente"
+      },
+      {
+        "letra": "C",
+        "texto": "Metálico"
+      },
+      {
+        "letra": "D",
+        "texto": "Magnético"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 19,
+    "texto": "¿Qué planeta del sistema solar tiene el período orbital más corto?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Venus"
+      },
+      {
+        "letra": "B",
+        "texto": "Mercurio"
+      },
+      {
+        "letra": "C",
+        "texto": "Marte"
+      },
+      {
+        "letra": "D",
+        "texto": "Neptuno"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "ciencia",
+    "orden": 20,
+    "texto": "¿Qué vasos sanguíneos llevan la sangre desde el corazón hacia el cuerpo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Venas"
+      },
+      {
+        "letra": "B",
+        "texto": "Arterias"
+      },
+      {
+        "letra": "C",
+        "texto": "Capilares"
+      },
+      {
+        "letra": "D",
+        "texto": "Alvéolos"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 1,
+    "texto": "¿Cuántos jugadores de un equipo de fútbol hay en la cancha al comenzar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "10"
+      },
+      {
+        "letra": "C",
+        "texto": "11"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 2,
+    "texto": "¿Cuántos puntos vale un tiro libre en básquet?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 3,
+    "texto": "¿Cuántos torneos de Grand Slam de tenis hay por año?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "3"
+      },
+      {
+        "letra": "C",
+        "texto": "4"
+      },
+      {
+        "letra": "D",
+        "texto": "5"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 4,
+    "texto": "¿Cuántos jugadores por equipo hay en cancha en vóley?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 5,
+    "texto": "¿Qué distancia oficial tiene una maratón?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "21,097 km"
+      },
+      {
+        "letra": "B",
+        "texto": "40 km"
+      },
+      {
+        "letra": "C",
+        "texto": "42,195 km"
+      },
+      {
+        "letra": "D",
+        "texto": "50 km"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 6,
+    "texto": "¿Desde qué distancia se ejecuta un penal en fútbol?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "9 metros"
+      },
+      {
+        "letra": "B",
+        "texto": "10 metros"
+      },
+      {
+        "letra": "C",
+        "texto": "11 metros"
+      },
+      {
+        "letra": "D",
+        "texto": "12 metros"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 7,
+    "texto": "¿Cuántos jugadores por equipo hay en cancha en handball?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 8,
+    "texto": "¿En qué deporte se disputa el torneo de Wimbledon?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Golf"
+      },
+      {
+        "letra": "B",
+        "texto": "Tenis"
+      },
+      {
+        "letra": "C",
+        "texto": "Críquet"
+      },
+      {
+        "letra": "D",
+        "texto": "Rugby"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 9,
+    "texto": "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "2 años"
+      },
+      {
+        "letra": "B",
+        "texto": "3 años"
+      },
+      {
+        "letra": "C",
+        "texto": "4 años"
+      },
+      {
+        "letra": "D",
+        "texto": "5 años"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 10,
+    "texto": "¿Qué parte del cuerpo no puede usar un jugador de campo para tocar la pelota en fútbol?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Cabeza"
+      },
+      {
+        "letra": "B",
+        "texto": "Pecho"
+      },
+      {
+        "letra": "C",
+        "texto": "Pie"
+      },
+      {
+        "letra": "D",
+        "texto": "Mano"
+      }
+    ],
+    "respuesta_correcta": "D"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 11,
+    "texto": "¿Cuántos puntos vale un lanzamiento convertido desde fuera del arco en básquet?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "3"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 12,
+    "texto": "¿Cuántos eventos individuales incluye el decatlón masculino?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "8"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "10"
+      },
+      {
+        "letra": "D",
+        "texto": "12"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 13,
+    "texto": "¿Qué distancia mide una vuelta completa a una pista olímpica de atletismo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "200 m"
+      },
+      {
+        "letra": "B",
+        "texto": "300 m"
+      },
+      {
+        "letra": "C",
+        "texto": "400 m"
+      },
+      {
+        "letra": "D",
+        "texto": "800 m"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 14,
+    "texto": "En tenis, ¿qué término indica que un jugador no anotó puntos en un game?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Love"
+      },
+      {
+        "letra": "B",
+        "texto": "Deuce"
+      },
+      {
+        "letra": "C",
+        "texto": "Let"
+      },
+      {
+        "letra": "D",
+        "texto": "Break"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 15,
+    "texto": "¿Cuántos jugadores por equipo están en cancha en un partido de rugby union?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "13"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "15"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 16,
+    "texto": "¿Cuánto dura cada tiempo de un partido adulto de handball, sin contar el descanso?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "20 minutos"
+      },
+      {
+        "letra": "B",
+        "texto": "25 minutos"
+      },
+      {
+        "letra": "C",
+        "texto": "30 minutos"
+      },
+      {
+        "letra": "D",
+        "texto": "45 minutos"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 17,
+    "texto": "En vóley, ¿a cuántos puntos se juega normalmente un set que no es el desempate?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "15"
+      },
+      {
+        "letra": "B",
+        "texto": "21"
+      },
+      {
+        "letra": "C",
+        "texto": "25"
+      },
+      {
+        "letra": "D",
+        "texto": "30"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 18,
+    "texto": "¿Cuándo se sanciona normalmente una posición adelantada en fútbol?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Al recibir un saque de banda"
+      },
+      {
+        "letra": "B",
+        "texto": "Si está adelantado cuando un compañero juega el balón y participa"
+      },
+      {
+        "letra": "C",
+        "texto": "Al estar dentro del área"
+      },
+      {
+        "letra": "D",
+        "texto": "Cada vez que supera al arquero"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 19,
+    "texto": "¿Qué prueba de natación combina mariposa, espalda, pecho y libre?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Relevo"
+      },
+      {
+        "letra": "B",
+        "texto": "Estilo combinado"
+      },
+      {
+        "letra": "C",
+        "texto": "Nado sincronizado"
+      },
+      {
+        "letra": "D",
+        "texto": "Aguas abiertas"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "deportes",
+    "orden": 20,
+    "texto": "¿Qué acción permite recuperar el balón tras un lanzamiento fallido en básquet?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Bloqueo"
+      },
+      {
+        "letra": "B",
+        "texto": "Rebote"
+      },
+      {
+        "letra": "C",
+        "texto": "Saque"
+      },
+      {
+        "letra": "D",
+        "texto": "Pase de pecho"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 1,
+    "texto": "¿Quién escribió Don Quijote de la Mancha?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Miguel de Cervantes"
+      },
+      {
+        "letra": "B",
+        "texto": "Federico García Lorca"
+      },
+      {
+        "letra": "C",
+        "texto": "Lope de Vega"
+      },
+      {
+        "letra": "D",
+        "texto": "Francisco de Quevedo"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 2,
+    "texto": "¿Quién pintó la Mona Lisa?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Vincent van Gogh"
+      },
+      {
+        "letra": "B",
+        "texto": "Leonardo da Vinci"
+      },
+      {
+        "letra": "C",
+        "texto": "Pablo Picasso"
+      },
+      {
+        "letra": "D",
+        "texto": "Claude Monet"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 3,
+    "texto": "¿Quién pintó La noche estrellada?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Salvador Dalí"
+      },
+      {
+        "letra": "B",
+        "texto": "Claude Monet"
+      },
+      {
+        "letra": "C",
+        "texto": "Vincent van Gogh"
+      },
+      {
+        "letra": "D",
+        "texto": "Rembrandt"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "arte",
+    "orden": 4,
+    "texto": "¿Cuántas teclas tiene aproximadamente un piano estándar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "66"
+      },
+      {
+        "letra": "B",
+        "texto": "76"
+      },
+      {
+        "letra": "C",
+        "texto": "88"
+      },
+      {
+        "letra": "D",
+        "texto": "100"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "arte",
+    "orden": 5,
+    "texto": "¿Qué caracteriza principalmente a una escultura?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Tiene volumen y tres dimensiones"
+      },
+      {
+        "letra": "B",
+        "texto": "Está escrita en versos"
+      },
+      {
+        "letra": "C",
+        "texto": "Solo usa sonidos"
+      },
+      {
+        "letra": "D",
+        "texto": "Se proyecta en una pantalla"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 6,
+    "texto": "¿Quién pintó el Guernica?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Pablo Picasso"
+      },
+      {
+        "letra": "B",
+        "texto": "Joan Miró"
+      },
+      {
+        "letra": "C",
+        "texto": "Diego Velázquez"
+      },
+      {
+        "letra": "D",
+        "texto": "Francisco de Goya"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 7,
+    "texto": "¿Cuántas líneas tiene un pentagrama musical?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 8,
+    "texto": "¿Qué baile es tradicional de Argentina?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Samba"
+      },
+      {
+        "letra": "B",
+        "texto": "Tango"
+      },
+      {
+        "letra": "C",
+        "texto": "Flamenco"
+      },
+      {
+        "letra": "D",
+        "texto": "Vals vienés"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 9,
+    "texto": "¿Quién compuso Las cuatro estaciones?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Mozart"
+      },
+      {
+        "letra": "B",
+        "texto": "Beethoven"
+      },
+      {
+        "letra": "C",
+        "texto": "Antonio Vivaldi"
+      },
+      {
+        "letra": "D",
+        "texto": "Chopin"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "arte",
+    "orden": 10,
+    "texto": "¿En qué ciudad está el museo del Louvre?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Roma"
+      },
+      {
+        "letra": "B",
+        "texto": "Madrid"
+      },
+      {
+        "letra": "C",
+        "texto": "París"
+      },
+      {
+        "letra": "D",
+        "texto": "Atenas"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "arte",
+    "orden": 11,
+    "texto": "¿Cuántos versos tiene un soneto clásico en español?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "12"
+      },
+      {
+        "letra": "B",
+        "texto": "14"
+      },
+      {
+        "letra": "C",
+        "texto": "16"
+      },
+      {
+        "letra": "D",
+        "texto": "18"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 12,
+    "texto": "¿Qué técnica mural aplica pigmentos sobre yeso todavía húmedo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Temple"
+      },
+      {
+        "letra": "B",
+        "texto": "Fresco"
+      },
+      {
+        "letra": "C",
+        "texto": "Grabado"
+      },
+      {
+        "letra": "D",
+        "texto": "Mosaico"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 13,
+    "texto": "¿Qué pintor es una figura central del impresionismo y realizó varias series de nenúfares?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Claude Monet"
+      },
+      {
+        "letra": "B",
+        "texto": "Paul Cézanne"
+      },
+      {
+        "letra": "C",
+        "texto": "Edgar Degas"
+      },
+      {
+        "letra": "D",
+        "texto": "Henri Matisse"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 14,
+    "texto": "¿Cómo se llama el texto que contiene las palabras de una ópera?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Libreto"
+      },
+      {
+        "letra": "B",
+        "texto": "Partitura"
+      },
+      {
+        "letra": "C",
+        "texto": "Soneto"
+      },
+      {
+        "letra": "D",
+        "texto": "Crónica"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 15,
+    "texto": "¿Qué recurso visual crea volumen mediante el contraste marcado entre luz y sombra?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Perspectiva aérea"
+      },
+      {
+        "letra": "B",
+        "texto": "Claroscuro"
+      },
+      {
+        "letra": "C",
+        "texto": "Puntillismo"
+      },
+      {
+        "letra": "D",
+        "texto": "Collage"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 16,
+    "texto": "¿Qué arquitecto diseñó la basílica de la Sagrada Familia de Barcelona?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Antoni Gaudí"
+      },
+      {
+        "letra": "B",
+        "texto": "Le Corbusier"
+      },
+      {
+        "letra": "C",
+        "texto": "Frank Lloyd Wright"
+      },
+      {
+        "letra": "D",
+        "texto": "Oscar Niemeyer"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "arte",
+    "orden": 17,
+    "texto": "¿Qué dos artistas son considerados iniciadores del cubismo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Dalí y Miró"
+      },
+      {
+        "letra": "B",
+        "texto": "Picasso y Braque"
+      },
+      {
+        "letra": "C",
+        "texto": "Monet y Renoir"
+      },
+      {
+        "letra": "D",
+        "texto": "Kahlo y Rivera"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 18,
+    "texto": "¿Qué compás suele asociarse con el vals tradicional?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "2/4"
+      },
+      {
+        "letra": "B",
+        "texto": "3/4"
+      },
+      {
+        "letra": "C",
+        "texto": "4/4"
+      },
+      {
+        "letra": "D",
+        "texto": "6/8"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 19,
+    "texto": "¿Qué figura retórica establece una comparación implícita entre dos elementos?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Hipérbole"
+      },
+      {
+        "letra": "B",
+        "texto": "Metáfora"
+      },
+      {
+        "letra": "C",
+        "texto": "Anáfora"
+      },
+      {
+        "letra": "D",
+        "texto": "Ironía"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "arte",
+    "orden": 20,
+    "texto": "¿Qué escultor italiano realizó el David de mármol que se conserva en Florencia?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Donatello"
+      },
+      {
+        "letra": "B",
+        "texto": "Miguel Ángel"
+      },
+      {
+        "letra": "C",
+        "texto": "Bernini"
+      },
+      {
+        "letra": "D",
+        "texto": "Canova"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 1,
+    "texto": "¿En qué año declaró su independencia Argentina?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1810"
+      },
+      {
+        "letra": "B",
+        "texto": "1816"
+      },
+      {
+        "letra": "C",
+        "texto": "1820"
+      },
+      {
+        "letra": "D",
+        "texto": "1853"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 2,
+    "texto": "¿En qué año comenzó la Revolución francesa?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1776"
+      },
+      {
+        "letra": "B",
+        "texto": "1789"
+      },
+      {
+        "letra": "C",
+        "texto": "1812"
+      },
+      {
+        "letra": "D",
+        "texto": "1848"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 3,
+    "texto": "¿En qué año cayó el Muro de Berlín?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1961"
+      },
+      {
+        "letra": "B",
+        "texto": "1975"
+      },
+      {
+        "letra": "C",
+        "texto": "1989"
+      },
+      {
+        "letra": "D",
+        "texto": "1995"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 4,
+    "texto": "¿Quién fue el primer ser humano en pisar la Luna?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Yuri Gagarin"
+      },
+      {
+        "letra": "B",
+        "texto": "Neil Armstrong"
+      },
+      {
+        "letra": "C",
+        "texto": "Buzz Aldrin"
+      },
+      {
+        "letra": "D",
+        "texto": "John Glenn"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 5,
+    "texto": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1939"
+      },
+      {
+        "letra": "B",
+        "texto": "1942"
+      },
+      {
+        "letra": "C",
+        "texto": "1945"
+      },
+      {
+        "letra": "D",
+        "texto": "1950"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 6,
+    "texto": "¿Qué ciudad fue el centro del Imperio romano?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Atenas"
+      },
+      {
+        "letra": "B",
+        "texto": "Roma"
+      },
+      {
+        "letra": "C",
+        "texto": "Cartago"
+      },
+      {
+        "letra": "D",
+        "texto": "Alejandría"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 7,
+    "texto": "¿Quién fue el primer presidente de Argentina?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Domingo Faustino Sarmiento"
+      },
+      {
+        "letra": "B",
+        "texto": "Bernardino Rivadavia"
+      },
+      {
+        "letra": "C",
+        "texto": "Bartolomé Mitre"
+      },
+      {
+        "letra": "D",
+        "texto": "Justo José de Urquiza"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 8,
+    "texto": "¿Quiénes construyeron las pirámides de Guiza?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Los antiguos egipcios"
+      },
+      {
+        "letra": "B",
+        "texto": "Los romanos"
+      },
+      {
+        "letra": "C",
+        "texto": "Los fenicios"
+      },
+      {
+        "letra": "D",
+        "texto": "Los persas"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "historia",
+    "orden": 9,
+    "texto": "¿En qué año llegó Cristóbal Colón a América?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1342"
+      },
+      {
+        "letra": "B",
+        "texto": "1492"
+      },
+      {
+        "letra": "C",
+        "texto": "1510"
+      },
+      {
+        "letra": "D",
+        "texto": "1600"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 10,
+    "texto": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1492"
+      },
+      {
+        "letra": "B",
+        "texto": "1648"
+      },
+      {
+        "letra": "C",
+        "texto": "1776"
+      },
+      {
+        "letra": "D",
+        "texto": "1816"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 11,
+    "texto": "¿Qué tratado de 1919 estableció las condiciones de paz para Alemania tras la Primera Guerra Mundial?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Tratado de Utrecht"
+      },
+      {
+        "letra": "B",
+        "texto": "Tratado de Versalles"
+      },
+      {
+        "letra": "C",
+        "texto": "Tratado de Tordesillas"
+      },
+      {
+        "letra": "D",
+        "texto": "Tratado de París"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 12,
+    "texto": "¿En qué año comenzó la Restauración Meiji en Japón?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1603"
+      },
+      {
+        "letra": "B",
+        "texto": "1756"
+      },
+      {
+        "letra": "C",
+        "texto": "1868"
+      },
+      {
+        "letra": "D",
+        "texto": "1912"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 13,
+    "texto": "¿Qué documento de 1215 limitó algunos poderes del rey Juan de Inglaterra?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "La Carta Magna"
+      },
+      {
+        "letra": "B",
+        "texto": "El Edicto de Milán"
+      },
+      {
+        "letra": "C",
+        "texto": "La Bula de Oro"
+      },
+      {
+        "letra": "D",
+        "texto": "El Acta de Navegación"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "historia",
+    "orden": 14,
+    "texto": "¿Qué ciudad fue la capital del Imperio bizantino durante la mayor parte de su historia?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Atenas"
+      },
+      {
+        "letra": "B",
+        "texto": "Constantinopla"
+      },
+      {
+        "letra": "C",
+        "texto": "Alejandría"
+      },
+      {
+        "letra": "D",
+        "texto": "Antioquía"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 15,
+    "texto": "¿En qué año se declaró la independencia de Haití?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1776"
+      },
+      {
+        "letra": "B",
+        "texto": "1791"
+      },
+      {
+        "letra": "C",
+        "texto": "1804"
+      },
+      {
+        "letra": "D",
+        "texto": "1816"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 16,
+    "texto": "¿Qué civilización construyó la ciudad de Machu Picchu?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Maya"
+      },
+      {
+        "letra": "B",
+        "texto": "Azteca"
+      },
+      {
+        "letra": "C",
+        "texto": "Inca"
+      },
+      {
+        "letra": "D",
+        "texto": "Moche"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 17,
+    "texto": "¿En qué país comenzó la Revolución Industrial del siglo XVIII?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Francia"
+      },
+      {
+        "letra": "B",
+        "texto": "Gran Bretaña"
+      },
+      {
+        "letra": "C",
+        "texto": "Alemania"
+      },
+      {
+        "letra": "D",
+        "texto": "Estados Unidos"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 18,
+    "texto": "¿En qué año ocurrió la crisis de los misiles de Cuba?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1956"
+      },
+      {
+        "letra": "B",
+        "texto": "1961"
+      },
+      {
+        "letra": "C",
+        "texto": "1962"
+      },
+      {
+        "letra": "D",
+        "texto": "1968"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "historia",
+    "orden": 19,
+    "texto": "¿Qué tratado de 1494 dividió áreas de exploración entre Castilla y Portugal?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Tratado de Versalles"
+      },
+      {
+        "letra": "B",
+        "texto": "Tratado de Tordesillas"
+      },
+      {
+        "letra": "C",
+        "texto": "Tratado de Utrecht"
+      },
+      {
+        "letra": "D",
+        "texto": "Tratado de Alcáçovas"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "historia",
+    "orden": 20,
+    "texto": "¿En qué ciudad se celebró la conferencia europea de 1884-1885 sobre la ocupación colonial de África?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Berlín"
+      },
+      {
+        "letra": "B",
+        "texto": "París"
+      },
+      {
+        "letra": "C",
+        "texto": "Londres"
+      },
+      {
+        "letra": "D",
+        "texto": "Viena"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 1,
+    "texto": "¿Cuál es la capital de Argentina?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Buenos Aires"
+      },
+      {
+        "letra": "B",
+        "texto": "Mendoza"
+      },
+      {
+        "letra": "C",
+        "texto": "La Plata"
+      },
+      {
+        "letra": "D",
+        "texto": "Córdoba"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 2,
+    "texto": "¿Cuál es el océano más grande del planeta?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Atlántico"
+      },
+      {
+        "letra": "B",
+        "texto": "Índico"
+      },
+      {
+        "letra": "C",
+        "texto": "Pacífico"
+      },
+      {
+        "letra": "D",
+        "texto": "Ártico"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 3,
+    "texto": "¿En qué continente se encuentra Egipto?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Asia"
+      },
+      {
+        "letra": "B",
+        "texto": "África"
+      },
+      {
+        "letra": "C",
+        "texto": "Europa"
+      },
+      {
+        "letra": "D",
+        "texto": "Oceanía"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 4,
+    "texto": "¿En qué cordillera se encuentra el Aconcagua?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Los Alpes"
+      },
+      {
+        "letra": "B",
+        "texto": "Los Andes"
+      },
+      {
+        "letra": "C",
+        "texto": "El Himalaya"
+      },
+      {
+        "letra": "D",
+        "texto": "Los Pirineos"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 5,
+    "texto": "¿Cuál es la capital de Japón?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Kioto"
+      },
+      {
+        "letra": "B",
+        "texto": "Osaka"
+      },
+      {
+        "letra": "C",
+        "texto": "Tokio"
+      },
+      {
+        "letra": "D",
+        "texto": "Hiroshima"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 6,
+    "texto": "¿Cuál es la capital de Francia?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Lyon"
+      },
+      {
+        "letra": "B",
+        "texto": "Marsella"
+      },
+      {
+        "letra": "C",
+        "texto": "París"
+      },
+      {
+        "letra": "D",
+        "texto": "Niza"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 7,
+    "texto": "¿En qué continente se encuentra el desierto del Sahara?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Asia"
+      },
+      {
+        "letra": "B",
+        "texto": "África"
+      },
+      {
+        "letra": "C",
+        "texto": "América"
+      },
+      {
+        "letra": "D",
+        "texto": "Europa"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 8,
+    "texto": "¿Qué línea imaginaria divide la Tierra en hemisferios norte y sur?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Meridiano de Greenwich"
+      },
+      {
+        "letra": "B",
+        "texto": "Trópico de Cáncer"
+      },
+      {
+        "letra": "C",
+        "texto": "Ecuador"
+      },
+      {
+        "letra": "D",
+        "texto": "Trópico de Capricornio"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 9,
+    "texto": "¿Entre qué dos países se encuentran las cataratas del Iguazú?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Argentina y Brasil"
+      },
+      {
+        "letra": "B",
+        "texto": "Argentina y Chile"
+      },
+      {
+        "letra": "C",
+        "texto": "Brasil y Uruguay"
+      },
+      {
+        "letra": "D",
+        "texto": "Chile y Bolivia"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 10,
+    "texto": "¿Cuál es la montaña más alta sobre el nivel del mar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Aconcagua"
+      },
+      {
+        "letra": "B",
+        "texto": "Kilimanjaro"
+      },
+      {
+        "letra": "C",
+        "texto": "Everest"
+      },
+      {
+        "letra": "D",
+        "texto": "Mont Blanc"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 11,
+    "texto": "¿Qué dos países sudamericanos no tienen salida al mar?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Bolivia y Paraguay"
+      },
+      {
+        "letra": "B",
+        "texto": "Perú y Ecuador"
+      },
+      {
+        "letra": "C",
+        "texto": "Chile y Bolivia"
+      },
+      {
+        "letra": "D",
+        "texto": "Paraguay y Uruguay"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 12,
+    "texto": "¿En qué mar desemboca el río Danubio?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Mar Báltico"
+      },
+      {
+        "letra": "B",
+        "texto": "Mar Negro"
+      },
+      {
+        "letra": "C",
+        "texto": "Mar Caspio"
+      },
+      {
+        "letra": "D",
+        "texto": "Mar del Norte"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 13,
+    "texto": "¿Cuál es la capital de Kenia?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Kampala"
+      },
+      {
+        "letra": "B",
+        "texto": "Nairobi"
+      },
+      {
+        "letra": "C",
+        "texto": "Dodoma"
+      },
+      {
+        "letra": "D",
+        "texto": "Kigali"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 14,
+    "texto": "¿Entre qué dos países se encuentra principalmente el lago Titicaca?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Chile y Argentina"
+      },
+      {
+        "letra": "B",
+        "texto": "Perú y Bolivia"
+      },
+      {
+        "letra": "C",
+        "texto": "Ecuador y Perú"
+      },
+      {
+        "letra": "D",
+        "texto": "Bolivia y Paraguay"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 15,
+    "texto": "¿Cuál es el lago más profundo del mundo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Lago Superior"
+      },
+      {
+        "letra": "B",
+        "texto": "Lago Victoria"
+      },
+      {
+        "letra": "C",
+        "texto": "Lago Baikal"
+      },
+      {
+        "letra": "D",
+        "texto": "Lago Tanganica"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 16,
+    "texto": "¿Qué representan las líneas llamadas paralelos en un mapa?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Longitudes"
+      },
+      {
+        "letra": "B",
+        "texto": "Latitudes"
+      },
+      {
+        "letra": "C",
+        "texto": "Altitudes"
+      },
+      {
+        "letra": "D",
+        "texto": "Husos horarios"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 17,
+    "texto": "¿Qué canal artificial conecta el mar Mediterráneo con el mar Rojo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Canal de Panamá"
+      },
+      {
+        "letra": "B",
+        "texto": "Canal de Suez"
+      },
+      {
+        "letra": "C",
+        "texto": "Canal de Kiel"
+      },
+      {
+        "letra": "D",
+        "texto": "Canal de Corinto"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 18,
+    "texto": "¿Qué cordillera marca gran parte de la frontera natural entre Francia y España?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Apeninos"
+      },
+      {
+        "letra": "B",
+        "texto": "Pirineos"
+      },
+      {
+        "letra": "C",
+        "texto": "Cárpatos"
+      },
+      {
+        "letra": "D",
+        "texto": "Balcanes"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 19,
+    "texto": "¿En qué país se encuentra la región de Capadocia, conocida por sus formaciones rocosas?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Grecia"
+      },
+      {
+        "letra": "B",
+        "texto": "Turquía"
+      },
+      {
+        "letra": "C",
+        "texto": "Jordania"
+      },
+      {
+        "letra": "D",
+        "texto": "Irán"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "geografia",
+    "orden": 20,
+    "texto": "¿Qué gran valle tectónico atraviesa el este de África?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Valle del Indo"
+      },
+      {
+        "letra": "B",
+        "texto": "Gran Valle del Rift"
+      },
+      {
+        "letra": "C",
+        "texto": "Valle del Loira"
+      },
+      {
+        "letra": "D",
+        "texto": "Valle de Ferganá"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 1,
+    "texto": "¿Cuánto es 7 × 8?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "48"
+      },
+      {
+        "letra": "B",
+        "texto": "54"
+      },
+      {
+        "letra": "C",
+        "texto": "56"
+      },
+      {
+        "letra": "D",
+        "texto": "64"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 2,
+    "texto": "¿Cuántos lados tiene un hexágono?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "Cinco"
+      },
+      {
+        "letra": "B",
+        "texto": "Seis"
+      },
+      {
+        "letra": "C",
+        "texto": "Siete"
+      },
+      {
+        "letra": "D",
+        "texto": "Ocho"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 3,
+    "texto": "¿A cuántos metros equivalen 100 centímetros?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "0,1 m"
+      },
+      {
+        "letra": "B",
+        "texto": "1 m"
+      },
+      {
+        "letra": "C",
+        "texto": "10 m"
+      },
+      {
+        "letra": "D",
+        "texto": "100 m"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 4,
+    "texto": "¿Cuánto suman los ángulos interiores de un triángulo?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "90°"
+      },
+      {
+        "letra": "B",
+        "texto": "180°"
+      },
+      {
+        "letra": "C",
+        "texto": "270°"
+      },
+      {
+        "letra": "D",
+        "texto": "360°"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 5,
+    "texto": "¿Cuánto es 3 al cuadrado?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "9"
+      },
+      {
+        "letra": "C",
+        "texto": "12"
+      },
+      {
+        "letra": "D",
+        "texto": "27"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 6,
+    "texto": "¿Cuál es la expresión decimal de un medio?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "0,2"
+      },
+      {
+        "letra": "B",
+        "texto": "0,25"
+      },
+      {
+        "letra": "C",
+        "texto": "0,5"
+      },
+      {
+        "letra": "D",
+        "texto": "1,5"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 7,
+    "texto": "¿Cuál es una aproximación de pi con dos decimales?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "2,14"
+      },
+      {
+        "letra": "B",
+        "texto": "3,14"
+      },
+      {
+        "letra": "C",
+        "texto": "3,41"
+      },
+      {
+        "letra": "D",
+        "texto": "4,13"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 8,
+    "texto": "¿Cuál es el perímetro de un cuadrado de lado 5 cm?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "10 cm"
+      },
+      {
+        "letra": "B",
+        "texto": "15 cm"
+      },
+      {
+        "letra": "C",
+        "texto": "20 cm"
+      },
+      {
+        "letra": "D",
+        "texto": "25 cm"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 9,
+    "texto": "¿Cuál es la raíz cuadrada de 81?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "7"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "9"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 10,
+    "texto": "¿Cuánto es el 25 % de 200?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "25"
+      },
+      {
+        "letra": "B",
+        "texto": "40"
+      },
+      {
+        "letra": "C",
+        "texto": "50"
+      },
+      {
+        "letra": "D",
+        "texto": "75"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 11,
+    "texto": "¿Cuáles son las soluciones de x² − 5x + 6 = 0?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1 y 6"
+      },
+      {
+        "letra": "B",
+        "texto": "2 y 3"
+      },
+      {
+        "letra": "C",
+        "texto": "−2 y −3"
+      },
+      {
+        "letra": "D",
+        "texto": "3 y 5"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 12,
+    "texto": "¿Cuánto es 3/4 dividido por 1/2?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "3/8"
+      },
+      {
+        "letra": "B",
+        "texto": "2/3"
+      },
+      {
+        "letra": "C",
+        "texto": "1"
+      },
+      {
+        "letra": "D",
+        "texto": "3/2"
+      }
+    ],
+    "respuesta_correcta": "D"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 13,
+    "texto": "Al lanzar un dado justo de seis caras, ¿cuál es la probabilidad de obtener un número mayor que 4?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "1/6"
+      },
+      {
+        "letra": "B",
+        "texto": "1/3"
+      },
+      {
+        "letra": "C",
+        "texto": "1/2"
+      },
+      {
+        "letra": "D",
+        "texto": "2/3"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 14,
+    "texto": "¿Cuál es el área de un círculo de radio 3 unidades?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "6π"
+      },
+      {
+        "letra": "B",
+        "texto": "9π"
+      },
+      {
+        "letra": "C",
+        "texto": "12π"
+      },
+      {
+        "letra": "D",
+        "texto": "18π"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 15,
+    "texto": "¿Qué número continúa la secuencia 2, 6, 18, 54...?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "108"
+      },
+      {
+        "letra": "B",
+        "texto": "126"
+      },
+      {
+        "letra": "C",
+        "texto": "162"
+      },
+      {
+        "letra": "D",
+        "texto": "216"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 16,
+    "texto": "¿Cuánto es el 15 % de 240?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "24"
+      },
+      {
+        "letra": "B",
+        "texto": "30"
+      },
+      {
+        "letra": "C",
+        "texto": "36"
+      },
+      {
+        "letra": "D",
+        "texto": "40"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 17,
+    "texto": "¿Cuál es la mediana de 3, 5, 8, 11 y 20?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "8"
+      },
+      {
+        "letra": "C",
+        "texto": "9,4"
+      },
+      {
+        "letra": "D",
+        "texto": "11"
+      }
+    ],
+    "respuesta_correcta": "B"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 18,
+    "texto": "¿Cuánto vale 2⁵ × 2³?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "64"
+      },
+      {
+        "letra": "B",
+        "texto": "128"
+      },
+      {
+        "letra": "C",
+        "texto": "256"
+      },
+      {
+        "letra": "D",
+        "texto": "512"
+      }
+    ],
+    "respuesta_correcta": "C"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 19,
+    "texto": "Un triángulo rectángulo tiene catetos de 3 y 4 unidades. ¿Cuánto mide la hipotenusa?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "5"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "7"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      }
+    ],
+    "respuesta_correcta": "A"
+  },
+  {
+    "categoria": "matematica",
+    "orden": 20,
+    "texto": "Si 3x + 7 = 25, ¿cuánto vale x?",
+    "opciones": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "6"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "10"
+      }
+    ],
+    "respuesta_correcta": "B"
+  }
+]
