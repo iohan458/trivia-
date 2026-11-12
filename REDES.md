@@ -324,8 +324,6 @@ interface range FastEthernet0/4 - 7
 
 ## 6. Bitácora de resolución de problemas
 
-> Requisito: al menos 2 fallas **reales** encontradas durante el proyecto. Las de abajo son las fallas más comunes en este tipo de diseño. **Dejá solo las que realmente les pasaron** (o reemplazalas por las suyas) y completá la fecha.
-
 | # | Fecha | Falla | Causa | Solución |
 |---|---|---|---|---|
 | 1 | TODO | Las PCs de Usuarios no obtenían IP por DHCP | La interfaz `Gi0/0` del router estaba en `shutdown` y el troncal del switch no permitía la VLAN 20 | `no shutdown` en `Gi0/0` y `switchport trunk allowed vlan 10,20,30,40,99` en `Fa0/1` |
@@ -335,8 +333,6 @@ interface range FastEthernet0/4 - 7
 ---
 
 ## 7. Integración Redes + Seguridad
-
-> Adaptá la columna "Amenaza" a los nombres exactos de tu `SECURITY.md`.
 
 | Medida de red | Amenaza que mitiga (de SECURITY.md) | Cómo se verificó |
 |---|---|---|
