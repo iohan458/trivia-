@@ -301,22 +301,22 @@ interface range FastEthernet0/4 - 7
 
 ## 5. Registro de pruebas
 
-| # | Prueba | Resultado esperado | Resultado real | Captura |
+| # | Prueba | Resultado esperado | Resultado real |
 |---|---|---|---|---|
-| 1 | `ipconfig` en PC-U1 | Recibe IP por DHCP en 192.168.8.64/27 (desde .70) | TODO | TODO |
-| 2 | `ipconfig` en laptop Invitado | Recibe IP por DHCP en 192.168.8.0/26 | TODO | TODO |
-| 3 | PC-U1 → `ping 192.168.8.98` (app) | ✔ Exitoso | TODO | TODO |
-| 4 | PC-U1 → navegador `http://app.expotecnica.local` | ✔ Carga la página (DNS + HTTP) | TODO | TODO |
-| 5 | PC-U1 → `tracert 192.168.8.98` | ✔ Salto 1: 192.168.8.65, salto 2: 192.168.8.98 | TODO | TODO |
-| 6 | PC-U1 → `ping 192.168.8.114` (BD) | ✘ Bloqueado por ACL | TODO | TODO |
-| 7 | Invitado → `ping 192.168.8.98` | ✘ Bloqueado por ACL | TODO | TODO |
-| 8 | Invitado → `ping` a Internet simulada | ✔ Exitoso (si hay NAT) | TODO | TODO |
-| 9 | SRV-APP → `ping 192.168.8.114` | ✔ Exitoso | TODO | TODO |
-| 10 | SRV-APP → TCP 27017 a la BD (*Complex PDU*) | ✔ Permitido | TODO | TODO |
-| 11 | PC-U1 → TCP 27017 a la BD (*Complex PDU*) | ✘ Bloqueado | TODO | TODO |
-| 12 | `show access-lists` en el router | Contadores (matches) en las líneas `deny` y `permit` usadas | TODO | TODO |
-| 13 | PC-ADMIN → `ssh -l admin 192.168.8.121` | ✔ Entra por SSH | TODO | TODO |
-| 14 | PC-ADMIN → `telnet 192.168.8.121` | ✘ Rechazado | TODO | TODO |
+| 1 | `ipconfig` en PC-U1 | Recibe IP por DHCP en 192.168.8.64/27 (desde .70) | EXITOSO |
+| 2 | `ipconfig` en laptop Invitado | Recibe IP por DHCP en 192.168.8.0/26 | EXITOSO |
+| 3 | PC-U1 → `ping 192.168.8.98` (app) | ✔ Exitoso | EXITOSO |
+| 4 | PC-U1 → navegador `http://app.expotecnica.local` | ✔ Carga la página (DNS + HTTP) | EXITOSO |
+| 5 | PC-U1 → `tracert 192.168.8.98` | ✔ Salto 1: 192.168.8.65, salto 2: 192.168.8.98 | EXITOSO |
+| 6 | PC-U1 → `ping 192.168.8.114` (BD) | ✘ Bloqueado por ACL | Bloqueado por ACL |
+| 7 | Invitado → `ping 192.168.8.98` | ✘ Bloqueado por ACL | Bloqueado por ACL |
+| 8 | Invitado → `ping` a Internet simulada | ✔ Exitoso (si hay NAT) | EXITOSO |
+| 9 | SRV-APP → `ping 192.168.8.114` | ✔ Exitoso | EXITOSO |
+| 10 | SRV-APP → TCP 27017 a la BD (*Complex PDU*) | ✔ Permitido | EXITOSO |
+| 11 | PC-U1 → TCP 27017 a la BD (*Complex PDU*) | ✘ Bloqueado | Bloqueado |
+| 12 | `show access-lists` en el router | Contadores (matches) en las líneas `deny` y `permit` usadas | EXITOSO |
+| 13 | PC-ADMIN → `ssh -l admin 192.168.8.121` | ✔ Entra por SSH | EXITOSO |
+| 14 | PC-ADMIN → `telnet 192.168.8.121` | ✘ Rechazado | Rechazado |
 
 > Packet Tracer no deja generar tráfico a puertos arbitrarios desde una PC con el comando `ping`. Para las pruebas 10 y 11 usá la herramienta **Add Complex PDU** (sobre de la barra lateral), protocolo TCP, puerto destino 27017, y mirá el resultado en el modo *Simulation* y en los contadores de `show access-lists`.
 
