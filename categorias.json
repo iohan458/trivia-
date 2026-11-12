@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ciencia",
+    "nombre": "Ciencia",
+    "icono": "⚗",
+    "descripcion": "Naturaleza, química y espacio"
+  },
+  {
+    "id": "deportes",
+    "nombre": "Deportes",
+    "icono": "⚽",
+    "descripcion": "Reglas, juegos y competencias"
+  },
+  {
+    "id": "arte",
+    "nombre": "Arte",
+    "icono": "🎨",
+    "descripcion": "Pintura, música y literatura"
+  },
+  {
+    "id": "historia",
+    "nombre": "Historia",
+    "icono": "🏛",
+    "descripcion": "Personajes y hechos del pasado"
+  },
+  {
+    "id": "geografia",
+    "nombre": "Geografía",
+    "icono": "🌎",
+    "descripcion": "Países, lugares y mapas"
+  },
+  {
+    "id": "matematica",
+    "nombre": "Matemática",
+    "icono": "📐",
+    "descripcion": "Números, formas y lógica"
+  }
+]
